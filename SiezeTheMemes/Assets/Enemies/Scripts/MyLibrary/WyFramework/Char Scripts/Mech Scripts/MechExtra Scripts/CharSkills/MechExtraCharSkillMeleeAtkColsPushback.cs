@@ -80,6 +80,15 @@ public class MechExtraCharSkillMeleeAtkColsPushback : MonoBehaviour // melee att
         }
     }
 
+    private void OnTriggerStay2D(Collider2D other)
+    {
+
+        if (other.gameObject)
+        {
+            Attack(other.gameObject);
+        }
+    }    
+
     private void OnTriggerEnter(Collider other)
     {        print("Collide");
         print(other.name);

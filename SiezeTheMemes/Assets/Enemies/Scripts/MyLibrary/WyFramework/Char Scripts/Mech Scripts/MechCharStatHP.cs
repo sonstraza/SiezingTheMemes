@@ -91,22 +91,22 @@ public class MechCharStatHP : MonoBehaviour
     
     public void OnDeath()
     {
-        // death code for char
-        // disable all components in char
-//        MonoBehaviour[] components = GetComponents<MonoBehaviour>();
-//        foreach(MonoBehaviour comp in components)
-//        {
-//            comp.enabled = false;
-//        }
-//
-//        foreach (GameObject obj in objsToDisableOnDeath)
-//        {
-//            obj.SetActive(false);
-//        }
-//        foreach (GameObject obj in objsToEnableOnDeath)
-//        {
-//            obj.SetActive(true);
-//        }
+//         death code for char
+//         disable all components in char
+        MonoBehaviour[] components = GetComponents<MonoBehaviour>();
+        foreach(MonoBehaviour comp in components)
+        {
+            comp.enabled = false;
+        }
+
+        foreach (GameObject obj in objsToDisableOnDeath)
+        {
+            obj.SetActive(false);
+        }
+        foreach (GameObject obj in objsToEnableOnDeath)
+        {
+            obj.SetActive(true);
+        }
     }
 
     private void OnCollisionEnter(Collision other) { //Collision Damage

@@ -19,11 +19,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Enemies/Scripts/TowerDefenseLogic/EnemyController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="330">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
               <folding>
-                <marker date="1569631094116" expanded="true" signature="6:78" ph="..." />
-                <marker date="1569631094116" expanded="true" signature="124:304" ph="{...}" />
-                <marker date="1569631094116" expanded="true" signature="182:292" ph="{...}" />
+                <marker date="1569634616137" expanded="true" signature="6:92" ph="..." />
+                <marker date="1569634616137" expanded="true" signature="138:498" ph="{...}" />
+                <marker date="1569634616137" expanded="true" signature="196:306" ph="{...}" />
+                <marker date="1569634616137" expanded="true" signature="333:383" ph="{...}" />
+                <marker date="1569634616137" expanded="true" signature="441:496" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Enemies/Scripts/TowerDefenseLogic/EnemySpawner.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+              <folding>
+                <marker date="1569634751043" expanded="false" signature="6:78" ph="..." />
+                <marker date="1569634751043" expanded="true" signature="121:269" ph="{...}" />
+                <marker date="1569634751043" expanded="true" signature="128:267" ph="/* Create an aray ... */" />
               </folding>
             </state>
           </provider>
@@ -32,41 +49,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Enemies/Scripts/MyLibrary/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkColsPushback.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="73" column="29" selection-start-line="73" selection-end-line="74" />
+            <state relative-caret-position="542">
+              <caret line="89" column="9" lean-forward="true" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
               <folding>
-                <marker date="1569633872033" expanded="true" signature="6:92" ph="..." />
-                <marker date="1569633872033" expanded="true" signature="95:101" ph="/* ... */" />
-                <marker date="1569633872033" expanded="true" signature="102:437" ph="///     This class uses a collider that apply damage to any character that touches it, and push them back in reco ... " />
-                <marker date="1569633872033" expanded="true" signature="531:2151" ph="{...}" />
-                <marker date="1569633872033" expanded="true" signature="752:794" ph="{...}" />
-                <marker date="1569633872033" expanded="true" signature="834:1298" ph="{...}" />
-                <marker date="1569633872033" expanded="true" signature="971:1292" ph="{...}" />
-                <marker date="1569633872033" expanded="true" signature="1020:1282" ph="{...}" />
-                <marker date="1569633872033" expanded="true" signature="1355:1519" ph="{...}" />
-                <marker date="1569633872033" expanded="true" signature="1455:1513" ph="{...}" />
-                <marker date="1569633872033" expanded="true" signature="1574:1738" ph="{...}" />
-                <marker date="1569633872033" expanded="true" signature="1674:1732" ph="{...}" />
-                <marker date="1569633872033" expanded="true" signature="1791:1944" ph="{...}" />
-                <marker date="1569633872033" expanded="true" signature="1880:1938" ph="{...}" />
-                <marker date="1569633872033" expanded="true" signature="1993:2146" ph="{...}" />
-                <marker date="1569633872033" expanded="true" signature="2082:2140" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/CollisionTest.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <marker date="1569633539391" expanded="true" signature="6:92" ph="..." />
-                <marker date="1569633539391" expanded="true" signature="136:398" ph="{...}" />
-                <marker date="1569633539391" expanded="true" signature="208:229" ph="{...}" />
-                <marker date="1569633539391" expanded="true" signature="287:308" ph="{...}" />
-                <marker date="1569633539391" expanded="true" signature="361:396" ph="{...}" />
+                <marker date="1569635014155" expanded="true" signature="6:92" ph="..." />
+                <marker date="1569635014155" expanded="true" signature="95:101" ph="/* ... */" />
+                <marker date="1569635014155" expanded="true" signature="102:437" ph="///     This class uses a collider that apply damage to any character that touches it, and push them back in reco ... " />
+                <marker date="1569635014155" expanded="true" signature="531:2308" ph="{...}" />
+                <marker date="1569635014155" expanded="true" signature="752:794" ph="{...}" />
+                <marker date="1569635014155" expanded="true" signature="834:1298" ph="{...}" />
+                <marker date="1569635014155" expanded="true" signature="971:1292" ph="{...}" />
+                <marker date="1569635014155" expanded="true" signature="1020:1282" ph="{...}" />
+                <marker date="1569635014155" expanded="true" signature="1355:1519" ph="{...}" />
+                <marker date="1569635014155" expanded="true" signature="1455:1513" ph="{...}" />
+                <marker date="1569635014155" expanded="true" signature="1574:1738" ph="{...}" />
+                <marker date="1569635014155" expanded="true" signature="1674:1732" ph="{...}" />
+                <marker date="1569635014155" expanded="true" signature="1791:1944" ph="{...}" />
+                <marker date="1569635014155" expanded="true" signature="1880:1938" ph="{...}" />
+                <marker date="1569635014155" expanded="true" signature="1996:2097" ph="{...}" />
+                <marker date="1569635014155" expanded="true" signature="2033:2091" ph="{...}" />
+                <marker date="1569635014155" expanded="true" signature="2150:2303" ph="{...}" />
+                <marker date="1569635014155" expanded="true" signature="2239:2297" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -75,31 +78,34 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Enemies/Scripts/MyLibrary/WyFramework/Char Scripts/Mech Scripts/MechCharStatHP.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="134" column="31" selection-start-line="134" selection-start-column="31" selection-end-line="134" selection-end-column="31" />
+            <state relative-caret-position="197">
+              <caret line="94" column="9" selection-start-line="93" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
               <folding>
-                <marker date="1569634190506" expanded="true" signature="6:114" ph="..." />
-                <marker date="1569634190506" expanded="true" signature="115:138" ph="/* using TmPro; ... */" />
-                <marker date="1569634190506" expanded="true" signature="139:316" ph="///     This class controls the HP Stat of the Character ... " />
-                <marker date="1569634190506" expanded="true" signature="361:3234" ph="{...}" />
-                <marker date="1569634190506" expanded="true" signature="852:1068" ph="{...}" />
-                <marker date="1569634190506" expanded="true" signature="914:984" ph="/* currentHP = maxHP; ... */" />
-                <marker date="1569634190506" expanded="true" signature="1095:1163" ph="{...}" />
-                <marker date="1569634190506" expanded="true" signature="1206:1495" ph="{...}" />
-                <marker date="1569634190506" expanded="true" signature="1231:1277" ph="{...}" />
-                <marker date="1569634190506" expanded="true" signature="1305:1347" ph="{...}" />
-                <marker date="1569634190506" expanded="true" signature="1543:2023" ph="{...}" />
-                <marker date="1569634190506" expanded="true" signature="1585:1746" ph="{...}" />
-                <marker date="1569634190506" expanded="true" signature="1670:1736" ph="{...}" />
-                <marker date="1569634190506" expanded="true" signature="1772:1875" ph="{...}" />
-                <marker date="1569634190506" expanded="true" signature="2054:2561" ph="{...}" />
-                <marker date="1569634190506" expanded="true" signature="2069:2555" ph="/* death code for char ... */" />
-                <marker date="1569634190506" expanded="true" signature="2614:2725" ph="{...}" />
-                <marker date="1569634190506" expanded="true" signature="2679:2718" ph="{...}" />
-                <marker date="1569634190506" expanded="true" signature="2781:2881" ph="{...}" />
-                <marker date="1569634190506" expanded="true" signature="2832:2871" ph="{...}" />
-                <marker date="1569634190506" expanded="true" signature="2916:3230" ph="{...}" />
-                <marker date="1569634190506" expanded="true" signature="2969:3200" ph="{...}" />
+                <marker date="1569635265653" expanded="true" signature="6:114" ph="..." />
+                <marker date="1569635265653" expanded="true" signature="115:138" ph="/* using TmPro; ... */" />
+                <marker date="1569635265653" expanded="true" signature="139:316" ph="///     This class controls the HP Stat of the Character ... " />
+                <marker date="1569635265653" expanded="true" signature="361:3206" ph="{...}" />
+                <marker date="1569635265653" expanded="true" signature="852:1068" ph="{...}" />
+                <marker date="1569635265653" expanded="true" signature="914:984" ph="/* currentHP = maxHP; ... */" />
+                <marker date="1569635265653" expanded="true" signature="1095:1163" ph="{...}" />
+                <marker date="1569635265653" expanded="true" signature="1206:1495" ph="{...}" />
+                <marker date="1569635265653" expanded="true" signature="1231:1277" ph="{...}" />
+                <marker date="1569635265653" expanded="true" signature="1305:1347" ph="{...}" />
+                <marker date="1569635265653" expanded="true" signature="1543:2023" ph="{...}" />
+                <marker date="1569635265653" expanded="true" signature="1585:1746" ph="{...}" />
+                <marker date="1569635265653" expanded="true" signature="1670:1736" ph="{...}" />
+                <marker date="1569635265653" expanded="true" signature="1772:1875" ph="{...}" />
+                <marker date="1569635265653" expanded="true" signature="2054:2533" ph="{...}" />
+                <marker date="1569635265653" expanded="true" signature="2061:2133" ph="/* death code for char ... */" />
+                <marker date="1569635265653" expanded="true" signature="2252:2306" ph="{...}" />
+                <marker date="1569635265653" expanded="true" signature="2364:2418" ph="{...}" />
+                <marker date="1569635265653" expanded="true" signature="2474:2527" ph="{...}" />
+                <marker date="1569635265653" expanded="true" signature="2586:2697" ph="{...}" />
+                <marker date="1569635265653" expanded="true" signature="2651:2690" ph="{...}" />
+                <marker date="1569635265653" expanded="true" signature="2753:2853" ph="{...}" />
+                <marker date="1569635265653" expanded="true" signature="2804:2843" ph="{...}" />
+                <marker date="1569635265653" expanded="true" signature="2888:3202" ph="{...}" />
+                <marker date="1569635265653" expanded="true" signature="2941:3172" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -116,8 +122,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/CollisionTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Enemies/Scripts/TowerDefenseLogic/EnemyController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Enemies/Scripts/TowerDefenseLogic/EnemySpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Enemies/Scripts/MyLibrary/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkColsPushback.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Enemies/Scripts/MyLibrary/WyFramework/Char Scripts/Mech Scripts/MechCharStatHP.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -125,6 +131,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/CollisionTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Enemies/Scripts/TowerDefenseLogic/EnemyController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Enemies/Scripts/TowerDefenseLogic/EnemySpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Enemies/Scripts/MyLibrary/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkColsPushback.cs" />
         <option value="$PROJECT_DIR$/Assets/Enemies/Scripts/MyLibrary/WyFramework/Char Scripts/Mech Scripts/MechCharStatHP.cs" />
       </list>
@@ -148,6 +156,15 @@
       <pane id="AssemblyExplorer" />
       <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
@@ -199,12 +216,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569631402377</updated>
-      <workItem from="1569631405331" duration="2346000" />
+      <workItem from="1569631405331" duration="3415000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2346000" />
+    <option name="totallyTimeSpent" value="3415000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -262,83 +279,96 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/CollisionTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Enemies/Scripts/TowerDefenseLogic/EnemyController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="330">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
           <folding>
-            <marker date="1569631094116" expanded="true" signature="6:78" ph="..." />
-            <marker date="1569631094116" expanded="true" signature="124:304" ph="{...}" />
-            <marker date="1569631094116" expanded="true" signature="182:292" ph="{...}" />
+            <marker date="1569634616137" expanded="true" signature="6:92" ph="..." />
+            <marker date="1569634616137" expanded="true" signature="138:498" ph="{...}" />
+            <marker date="1569634616137" expanded="true" signature="196:306" ph="{...}" />
+            <marker date="1569634616137" expanded="true" signature="333:383" ph="{...}" />
+            <marker date="1569634616137" expanded="true" signature="441:496" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Enemies/Scripts/TowerDefenseLogic/EnemySpawner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding>
+            <marker date="1569634751043" expanded="false" signature="6:78" ph="..." />
+            <marker date="1569634751043" expanded="true" signature="121:269" ph="{...}" />
+            <marker date="1569634751043" expanded="true" signature="128:267" ph="/* Create an aray ... */" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Enemies/Scripts/MyLibrary/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkColsPushback.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="73" column="29" selection-start-line="73" selection-end-line="74" />
+        <state relative-caret-position="542">
+          <caret line="89" column="9" lean-forward="true" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
           <folding>
-            <marker date="1569633872033" expanded="true" signature="6:92" ph="..." />
-            <marker date="1569633872033" expanded="true" signature="95:101" ph="/* ... */" />
-            <marker date="1569633872033" expanded="true" signature="102:437" ph="///     This class uses a collider that apply damage to any character that touches it, and push them back in reco ... " />
-            <marker date="1569633872033" expanded="true" signature="531:2151" ph="{...}" />
-            <marker date="1569633872033" expanded="true" signature="752:794" ph="{...}" />
-            <marker date="1569633872033" expanded="true" signature="834:1298" ph="{...}" />
-            <marker date="1569633872033" expanded="true" signature="971:1292" ph="{...}" />
-            <marker date="1569633872033" expanded="true" signature="1020:1282" ph="{...}" />
-            <marker date="1569633872033" expanded="true" signature="1355:1519" ph="{...}" />
-            <marker date="1569633872033" expanded="true" signature="1455:1513" ph="{...}" />
-            <marker date="1569633872033" expanded="true" signature="1574:1738" ph="{...}" />
-            <marker date="1569633872033" expanded="true" signature="1674:1732" ph="{...}" />
-            <marker date="1569633872033" expanded="true" signature="1791:1944" ph="{...}" />
-            <marker date="1569633872033" expanded="true" signature="1880:1938" ph="{...}" />
-            <marker date="1569633872033" expanded="true" signature="1993:2146" ph="{...}" />
-            <marker date="1569633872033" expanded="true" signature="2082:2140" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/CollisionTest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <marker date="1569633539391" expanded="true" signature="6:92" ph="..." />
-            <marker date="1569633539391" expanded="true" signature="136:398" ph="{...}" />
-            <marker date="1569633539391" expanded="true" signature="208:229" ph="{...}" />
-            <marker date="1569633539391" expanded="true" signature="287:308" ph="{...}" />
-            <marker date="1569633539391" expanded="true" signature="361:396" ph="{...}" />
+            <marker date="1569635014155" expanded="true" signature="6:92" ph="..." />
+            <marker date="1569635014155" expanded="true" signature="95:101" ph="/* ... */" />
+            <marker date="1569635014155" expanded="true" signature="102:437" ph="///     This class uses a collider that apply damage to any character that touches it, and push them back in reco ... " />
+            <marker date="1569635014155" expanded="true" signature="531:2308" ph="{...}" />
+            <marker date="1569635014155" expanded="true" signature="752:794" ph="{...}" />
+            <marker date="1569635014155" expanded="true" signature="834:1298" ph="{...}" />
+            <marker date="1569635014155" expanded="true" signature="971:1292" ph="{...}" />
+            <marker date="1569635014155" expanded="true" signature="1020:1282" ph="{...}" />
+            <marker date="1569635014155" expanded="true" signature="1355:1519" ph="{...}" />
+            <marker date="1569635014155" expanded="true" signature="1455:1513" ph="{...}" />
+            <marker date="1569635014155" expanded="true" signature="1574:1738" ph="{...}" />
+            <marker date="1569635014155" expanded="true" signature="1674:1732" ph="{...}" />
+            <marker date="1569635014155" expanded="true" signature="1791:1944" ph="{...}" />
+            <marker date="1569635014155" expanded="true" signature="1880:1938" ph="{...}" />
+            <marker date="1569635014155" expanded="true" signature="1996:2097" ph="{...}" />
+            <marker date="1569635014155" expanded="true" signature="2033:2091" ph="{...}" />
+            <marker date="1569635014155" expanded="true" signature="2150:2303" ph="{...}" />
+            <marker date="1569635014155" expanded="true" signature="2239:2297" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Enemies/Scripts/MyLibrary/WyFramework/Char Scripts/Mech Scripts/MechCharStatHP.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="134" column="31" selection-start-line="134" selection-start-column="31" selection-end-line="134" selection-end-column="31" />
+        <state relative-caret-position="197">
+          <caret line="94" column="9" selection-start-line="93" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
           <folding>
-            <marker date="1569634190506" expanded="true" signature="6:114" ph="..." />
-            <marker date="1569634190506" expanded="true" signature="115:138" ph="/* using TmPro; ... */" />
-            <marker date="1569634190506" expanded="true" signature="139:316" ph="///     This class controls the HP Stat of the Character ... " />
-            <marker date="1569634190506" expanded="true" signature="361:3234" ph="{...}" />
-            <marker date="1569634190506" expanded="true" signature="852:1068" ph="{...}" />
-            <marker date="1569634190506" expanded="true" signature="914:984" ph="/* currentHP = maxHP; ... */" />
-            <marker date="1569634190506" expanded="true" signature="1095:1163" ph="{...}" />
-            <marker date="1569634190506" expanded="true" signature="1206:1495" ph="{...}" />
-            <marker date="1569634190506" expanded="true" signature="1231:1277" ph="{...}" />
-            <marker date="1569634190506" expanded="true" signature="1305:1347" ph="{...}" />
-            <marker date="1569634190506" expanded="true" signature="1543:2023" ph="{...}" />
-            <marker date="1569634190506" expanded="true" signature="1585:1746" ph="{...}" />
-            <marker date="1569634190506" expanded="true" signature="1670:1736" ph="{...}" />
-            <marker date="1569634190506" expanded="true" signature="1772:1875" ph="{...}" />
-            <marker date="1569634190506" expanded="true" signature="2054:2561" ph="{...}" />
-            <marker date="1569634190506" expanded="true" signature="2069:2555" ph="/* death code for char ... */" />
-            <marker date="1569634190506" expanded="true" signature="2614:2725" ph="{...}" />
-            <marker date="1569634190506" expanded="true" signature="2679:2718" ph="{...}" />
-            <marker date="1569634190506" expanded="true" signature="2781:2881" ph="{...}" />
-            <marker date="1569634190506" expanded="true" signature="2832:2871" ph="{...}" />
-            <marker date="1569634190506" expanded="true" signature="2916:3230" ph="{...}" />
-            <marker date="1569634190506" expanded="true" signature="2969:3200" ph="{...}" />
+            <marker date="1569635265653" expanded="true" signature="6:114" ph="..." />
+            <marker date="1569635265653" expanded="true" signature="115:138" ph="/* using TmPro; ... */" />
+            <marker date="1569635265653" expanded="true" signature="139:316" ph="///     This class controls the HP Stat of the Character ... " />
+            <marker date="1569635265653" expanded="true" signature="361:3206" ph="{...}" />
+            <marker date="1569635265653" expanded="true" signature="852:1068" ph="{...}" />
+            <marker date="1569635265653" expanded="true" signature="914:984" ph="/* currentHP = maxHP; ... */" />
+            <marker date="1569635265653" expanded="true" signature="1095:1163" ph="{...}" />
+            <marker date="1569635265653" expanded="true" signature="1206:1495" ph="{...}" />
+            <marker date="1569635265653" expanded="true" signature="1231:1277" ph="{...}" />
+            <marker date="1569635265653" expanded="true" signature="1305:1347" ph="{...}" />
+            <marker date="1569635265653" expanded="true" signature="1543:2023" ph="{...}" />
+            <marker date="1569635265653" expanded="true" signature="1585:1746" ph="{...}" />
+            <marker date="1569635265653" expanded="true" signature="1670:1736" ph="{...}" />
+            <marker date="1569635265653" expanded="true" signature="1772:1875" ph="{...}" />
+            <marker date="1569635265653" expanded="true" signature="2054:2533" ph="{...}" />
+            <marker date="1569635265653" expanded="true" signature="2061:2133" ph="/* death code for char ... */" />
+            <marker date="1569635265653" expanded="true" signature="2252:2306" ph="{...}" />
+            <marker date="1569635265653" expanded="true" signature="2364:2418" ph="{...}" />
+            <marker date="1569635265653" expanded="true" signature="2474:2527" ph="{...}" />
+            <marker date="1569635265653" expanded="true" signature="2586:2697" ph="{...}" />
+            <marker date="1569635265653" expanded="true" signature="2651:2690" ph="{...}" />
+            <marker date="1569635265653" expanded="true" signature="2753:2853" ph="{...}" />
+            <marker date="1569635265653" expanded="true" signature="2804:2843" ph="{...}" />
+            <marker date="1569635265653" expanded="true" signature="2888:3202" ph="{...}" />
+            <marker date="1569635265653" expanded="true" signature="2941:3172" ph="{...}" />
           </folding>
         </state>
       </provider>
