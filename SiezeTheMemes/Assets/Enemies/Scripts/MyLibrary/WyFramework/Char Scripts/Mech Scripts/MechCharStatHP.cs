@@ -37,10 +37,12 @@ public class MechCharStatHP : MonoBehaviour
     public List<GameObject> objsToDisableOnDeath;
     public List<GameObject> objsToEnableOnDeath;
 
+
+    private SpriteRenderer mySR;
     
     void Start()
     {
-        anim = GetComponentInChildren<Animator>();
+        mySR = GetComponent<SpriteRenderer>();
         //currentHP = maxHP;
         //StatHPText.text = currentHP.ToString();
         
@@ -91,20 +93,20 @@ public class MechCharStatHP : MonoBehaviour
     {
         // death code for char
         // disable all components in char
-        MonoBehaviour[] components = GetComponents<MonoBehaviour>();
-        foreach(MonoBehaviour comp in components)
-        {
-            comp.enabled = false;
-        }
-
-        foreach (GameObject obj in objsToDisableOnDeath)
-        {
-            obj.SetActive(false);
-        }
-        foreach (GameObject obj in objsToEnableOnDeath)
-        {
-            obj.SetActive(true);
-        }
+//        MonoBehaviour[] components = GetComponents<MonoBehaviour>();
+//        foreach(MonoBehaviour comp in components)
+//        {
+//            comp.enabled = false;
+//        }
+//
+//        foreach (GameObject obj in objsToDisableOnDeath)
+//        {
+//            obj.SetActive(false);
+//        }
+//        foreach (GameObject obj in objsToEnableOnDeath)
+//        {
+//            obj.SetActive(true);
+//        }
     }
 
     private void OnCollisionEnter(Collision other) { //Collision Damage
@@ -126,8 +128,12 @@ public class MechCharStatHP : MonoBehaviour
 		for(int i =0; i<5; i++){
 			yield return new WaitForSeconds (0.1f);
             //disable sprite
+            mySR.enabled = false;
+            
 			yield return new WaitForSeconds (0.1f);
-            // enable sprite
+            // enable sprite.
+            mySR.enabled = true;
+
 		}
 		bIsInvulnerable = false;
 	}
