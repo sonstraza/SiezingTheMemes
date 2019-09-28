@@ -32,7 +32,8 @@ public class CnvMechObjPoolSgtMan : MonoBehaviour
 	void Start () {
 		Pool = new List<GameObject>();
 		foreach (ObjectPoolItem item in itemsToPool) {
-			item.objectToPool.transform.position = hiddenPos;
+			if(item!=null)
+				item.objectToPool.transform.position = hiddenPos;
 			for (int i = 0; i < item.amountToPool; i++) {
 			GameObject obj = (GameObject)Instantiate(item.objectToPool);
 			obj.SetActive(false);
@@ -110,18 +111,18 @@ public class CnvMechObjPoolSgtMan : MonoBehaviour
 			Debug.Log (list[i]);
 		}
 	}
-	/*
 	
-		public void PutObjectInWorld(int index, Vector3 position){
-			// print(Pool[index].gameObject.name);		
-			
-				Pool[index].transform.position = position;
-				Pool[index].SetActive(true);
-		}
-		public void AddObjects(GameObject obj){
-			Pool.Add(obj);
-			obj.transform.parent = transform;
-			obj.SetActive(true);
-		}
-	*/
+	
+//		public void PutObjectInWorld(int index, Vector3 position){
+//			// print(Pool[index].gameObject.name);		
+//			
+//				Pool[index].transform.position = position;
+//				Pool[index].SetActive(true);
+//		}
+//		public void AddObjects(GameObject obj){
+//			Pool.Add(obj);
+//			obj.transform.parent = transform;
+//			obj.SetActive(true);
+//		}
+	
 }
