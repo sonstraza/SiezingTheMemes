@@ -28,7 +28,10 @@ public class CubePlacer : MonoBehaviour
 
             if (Physics.Raycast(ray, out hitInfo))
             {
-                PlaceCubeNear(hitInfo.point);
+                //string colliderName = hitInfo.collider.gameObject.tag;
+                //Debug.Log(colliderName);
+                if(hitInfo.collider.gameObject.tag.Equals("Ground"))
+                    PlaceCubeNear(hitInfo.point);
             }
         }
     }
