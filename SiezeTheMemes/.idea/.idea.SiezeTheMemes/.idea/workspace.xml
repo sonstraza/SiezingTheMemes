@@ -32,7 +32,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Enemies/Scripts/TowerDefenseLogic/EnemySpawner.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
@@ -48,35 +48,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Enemies/Scripts/MyLibrary/WyFramework/Convenience Scripts/Singleton/CnvMechObjPoolSgtMan.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="35" column="57" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="57" />
+            <state relative-caret-position="317">
+              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
               <folding>
-                <marker date="1569636920185" expanded="true" signature="6:78" ph="..." />
-                <marker date="1569636920185" expanded="true" signature="191:315" ph="{...}" />
-                <marker date="1569636920185" expanded="true" signature="366:3092" ph="{...}" />
-                <marker date="1569636920185" expanded="true" signature="729:753" ph="{...}" />
-                <marker date="1569636920185" expanded="true" signature="823:1166" ph="{...}" />
-                <marker date="1569636920185" expanded="true" signature="905:1163" ph="{...}" />
-                <marker date="1569636920185" expanded="true" signature="1007:1159" ph="{...}" />
-                <marker date="1569636920185" expanded="true" signature="1185:1190" ph="{...}" />
-                <marker date="1569636920185" expanded="true" signature="1239:1703" ph="{...}" />
-                <marker date="1569636920185" expanded="true" signature="1280:1369" ph="{...}" />
-                <marker date="1569636920185" expanded="true" signature="1339:1365" ph="{...}" />
-                <marker date="1569636920185" expanded="true" signature="1417:1685" ph="{...}" />
-                <marker date="1569636920185" expanded="true" signature="1456:1681" ph="{...}" />
-                <marker date="1569636920185" expanded="true" signature="1485:1676" ph="{...}" />
-                <marker date="1569636920185" expanded="true" signature="1747:2217" ph="{...}" />
-                <marker date="1569636920185" expanded="true" signature="1809:1877" ph="{...}" />
-                <marker date="1569636920185" expanded="true" signature="1847:1873" ph="{...}" />
-                <marker date="1569636920185" expanded="true" signature="1925:2199" ph="{...}" />
-                <marker date="1569636920185" expanded="true" signature="1996:2187" ph="{...}" />
-                <marker date="1569636920185" expanded="true" signature="2260:2744" ph="{...}" />
-                <marker date="1569636920185" expanded="true" signature="2329:2656" ph="{...}" />
-                <marker date="1569636920185" expanded="true" signature="2709:2741" ph="{...}" />
-                <marker date="1569636920185" expanded="true" signature="2749:3088" ph="/* public void PutObjectInWorld(int index, Vector3 position){ ... */" />
+                <marker date="1569637811992" expanded="true" signature="6:78" ph="..." />
+                <marker date="1569637811992" expanded="true" signature="191:315" ph="{...}" />
+                <marker date="1569637811992" expanded="true" signature="366:3111" ph="{...}" />
+                <marker date="1569637811992" expanded="true" signature="729:753" ph="{...}" />
+                <marker date="1569637811992" expanded="true" signature="823:1185" ph="{...}" />
+                <marker date="1569637811992" expanded="true" signature="905:1182" ph="{...}" />
+                <marker date="1569637811992" expanded="true" signature="1026:1178" ph="{...}" />
+                <marker date="1569637811992" expanded="true" signature="1204:1209" ph="{...}" />
+                <marker date="1569637811992" expanded="true" signature="1258:1722" ph="{...}" />
+                <marker date="1569637811992" expanded="true" signature="1299:1388" ph="{...}" />
+                <marker date="1569637811992" expanded="true" signature="1358:1384" ph="{...}" />
+                <marker date="1569637811992" expanded="true" signature="1436:1704" ph="{...}" />
+                <marker date="1569637811992" expanded="true" signature="1475:1700" ph="{...}" />
+                <marker date="1569637811992" expanded="true" signature="1504:1695" ph="{...}" />
+                <marker date="1569637811992" expanded="true" signature="1766:2236" ph="{...}" />
+                <marker date="1569637811992" expanded="true" signature="1828:1896" ph="{...}" />
+                <marker date="1569637811992" expanded="true" signature="1866:1892" ph="{...}" />
+                <marker date="1569637811992" expanded="true" signature="1944:2218" ph="{...}" />
+                <marker date="1569637811992" expanded="true" signature="2015:2206" ph="{...}" />
+                <marker date="1569637811992" expanded="true" signature="2279:2763" ph="{...}" />
+                <marker date="1569637811992" expanded="true" signature="2348:2675" ph="{...}" />
+                <marker date="1569637811992" expanded="true" signature="2728:2760" ph="{...}" />
+                <marker date="1569637811992" expanded="true" signature="2768:3107" ph="/* public void PutObjectInWorld(int index, Vector3 position){ ... */" />
               </folding>
             </state>
           </provider>
@@ -86,7 +86,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Enemies/Scripts/MyLibrary/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkColsPushback.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="608">
-              <caret line="53" column="54" lean-forward="true" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
+              <caret line="53" column="54" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
               <folding>
                 <marker date="1569636962900" expanded="true" signature="6:92" ph="..." />
                 <marker date="1569636962900" expanded="true" signature="95:101" ph="/* ... */" />
@@ -171,9 +171,9 @@
         <option value="$PROJECT_DIR$/Assets/CollisionTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Enemies/Scripts/TowerDefenseLogic/EnemyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Enemies/Scripts/MyLibrary/WyFramework/Char Scripts/Mech Scripts/MechCharStatHP.cs" />
-        <option value="$PROJECT_DIR$/Assets/Enemies/Scripts/MyLibrary/WyFramework/Convenience Scripts/Singleton/CnvMechObjPoolSgtMan.cs" />
         <option value="$PROJECT_DIR$/Assets/Enemies/Scripts/MyLibrary/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkColsPushback.cs" />
         <option value="$PROJECT_DIR$/Assets/Enemies/Scripts/TowerDefenseLogic/EnemySpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Enemies/Scripts/MyLibrary/WyFramework/Convenience Scripts/Singleton/CnvMechObjPoolSgtMan.cs" />
       </list>
     </option>
   </component>
@@ -255,12 +255,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569631402377</updated>
-      <workItem from="1569631405331" duration="5847000" />
+      <workItem from="1569631405331" duration="6523000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5847000" />
+    <option name="totallyTimeSpent" value="6523000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -403,7 +403,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Enemies/Scripts/MyLibrary/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkColsPushback.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
-          <caret line="53" column="54" lean-forward="true" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
+          <caret line="53" column="54" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
           <folding>
             <marker date="1569636962900" expanded="true" signature="6:92" ph="..." />
             <marker date="1569636962900" expanded="true" signature="95:101" ph="/* ... */" />
@@ -427,38 +427,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Enemies/Scripts/MyLibrary/WyFramework/Convenience Scripts/Singleton/CnvMechObjPoolSgtMan.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="35" column="57" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="57" />
-          <folding>
-            <marker date="1569636920185" expanded="true" signature="6:78" ph="..." />
-            <marker date="1569636920185" expanded="true" signature="191:315" ph="{...}" />
-            <marker date="1569636920185" expanded="true" signature="366:3092" ph="{...}" />
-            <marker date="1569636920185" expanded="true" signature="729:753" ph="{...}" />
-            <marker date="1569636920185" expanded="true" signature="823:1166" ph="{...}" />
-            <marker date="1569636920185" expanded="true" signature="905:1163" ph="{...}" />
-            <marker date="1569636920185" expanded="true" signature="1007:1159" ph="{...}" />
-            <marker date="1569636920185" expanded="true" signature="1185:1190" ph="{...}" />
-            <marker date="1569636920185" expanded="true" signature="1239:1703" ph="{...}" />
-            <marker date="1569636920185" expanded="true" signature="1280:1369" ph="{...}" />
-            <marker date="1569636920185" expanded="true" signature="1339:1365" ph="{...}" />
-            <marker date="1569636920185" expanded="true" signature="1417:1685" ph="{...}" />
-            <marker date="1569636920185" expanded="true" signature="1456:1681" ph="{...}" />
-            <marker date="1569636920185" expanded="true" signature="1485:1676" ph="{...}" />
-            <marker date="1569636920185" expanded="true" signature="1747:2217" ph="{...}" />
-            <marker date="1569636920185" expanded="true" signature="1809:1877" ph="{...}" />
-            <marker date="1569636920185" expanded="true" signature="1847:1873" ph="{...}" />
-            <marker date="1569636920185" expanded="true" signature="1925:2199" ph="{...}" />
-            <marker date="1569636920185" expanded="true" signature="1996:2187" ph="{...}" />
-            <marker date="1569636920185" expanded="true" signature="2260:2744" ph="{...}" />
-            <marker date="1569636920185" expanded="true" signature="2329:2656" ph="{...}" />
-            <marker date="1569636920185" expanded="true" signature="2709:2741" ph="{...}" />
-            <marker date="1569636920185" expanded="true" signature="2749:3088" ph="/* public void PutObjectInWorld(int index, Vector3 position){ ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Enemies/Scripts/TowerDefenseLogic/EnemySpawner.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -469,6 +437,38 @@
             <marker date="1569637721785" expanded="true" signature="142:281" ph="/* Create an aray ... */" />
             <marker date="1569637721785" expanded="true" signature="342:724" ph="{...}" />
             <marker date="1569637721785" expanded="true" signature="393:718" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Enemies/Scripts/MyLibrary/WyFramework/Convenience Scripts/Singleton/CnvMechObjPoolSgtMan.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+          <folding>
+            <marker date="1569637811992" expanded="true" signature="6:78" ph="..." />
+            <marker date="1569637811992" expanded="true" signature="191:315" ph="{...}" />
+            <marker date="1569637811992" expanded="true" signature="366:3111" ph="{...}" />
+            <marker date="1569637811992" expanded="true" signature="729:753" ph="{...}" />
+            <marker date="1569637811992" expanded="true" signature="823:1185" ph="{...}" />
+            <marker date="1569637811992" expanded="true" signature="905:1182" ph="{...}" />
+            <marker date="1569637811992" expanded="true" signature="1026:1178" ph="{...}" />
+            <marker date="1569637811992" expanded="true" signature="1204:1209" ph="{...}" />
+            <marker date="1569637811992" expanded="true" signature="1258:1722" ph="{...}" />
+            <marker date="1569637811992" expanded="true" signature="1299:1388" ph="{...}" />
+            <marker date="1569637811992" expanded="true" signature="1358:1384" ph="{...}" />
+            <marker date="1569637811992" expanded="true" signature="1436:1704" ph="{...}" />
+            <marker date="1569637811992" expanded="true" signature="1475:1700" ph="{...}" />
+            <marker date="1569637811992" expanded="true" signature="1504:1695" ph="{...}" />
+            <marker date="1569637811992" expanded="true" signature="1766:2236" ph="{...}" />
+            <marker date="1569637811992" expanded="true" signature="1828:1896" ph="{...}" />
+            <marker date="1569637811992" expanded="true" signature="1866:1892" ph="{...}" />
+            <marker date="1569637811992" expanded="true" signature="1944:2218" ph="{...}" />
+            <marker date="1569637811992" expanded="true" signature="2015:2206" ph="{...}" />
+            <marker date="1569637811992" expanded="true" signature="2279:2763" ph="{...}" />
+            <marker date="1569637811992" expanded="true" signature="2348:2675" ph="{...}" />
+            <marker date="1569637811992" expanded="true" signature="2728:2760" ph="{...}" />
+            <marker date="1569637811992" expanded="true" signature="2768:3107" ph="/* public void PutObjectInWorld(int index, Vector3 position){ ... */" />
           </folding>
         </state>
       </provider>

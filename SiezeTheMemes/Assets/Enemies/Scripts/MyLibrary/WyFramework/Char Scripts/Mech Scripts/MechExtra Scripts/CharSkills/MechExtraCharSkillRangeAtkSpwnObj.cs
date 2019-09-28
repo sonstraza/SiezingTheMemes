@@ -22,7 +22,7 @@ using UnityEngine.UI;
 /// 
 /// </summary>
 /// 
-public class MechExtraCharSkillRangeAtkSpwnObj : MonoBehaviour
+public class MechExtraCharSkillRangeAtkSpwnObj : MonoBehaviour //Altered
 {
     [FormerlySerializedAs("timeBetweenBullets")]
     public float fireRate = 0.15f;
@@ -77,6 +77,8 @@ public class MechExtraCharSkillRangeAtkSpwnObj : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        useWeapon();
         if (Input.GetMouseButton(0))
         {
             useWeapon();

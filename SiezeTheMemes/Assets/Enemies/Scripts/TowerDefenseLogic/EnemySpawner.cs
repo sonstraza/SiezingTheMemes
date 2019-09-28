@@ -11,13 +11,13 @@ public class EnemySpawner : MonoBehaviour
             // activate each enemy one by one 
     public GameObject spawnPoint;
 
-    private void Update()
+    private void Awake()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+//        if (Input.GetKeyDown(KeyCode.Space))
         {
             GameObject spawnObj = CnvMechObjPoolSgtMan.instance.GetPooledObjectRandom();
             spawnObj.transform.position = spawnPoint.transform.position;
-            spawnObj.GetComponent<MechCharStatHP>().currentHP = 1000;
+            spawnObj.GetComponent<MechCharStatHP>().currentHP = spawnObj.GetComponent<MechCharStatHP>().maxHP;
             
             spawnObj.SetActive(true);
             /// heal 

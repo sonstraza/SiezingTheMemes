@@ -310,6 +310,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 136910158356338929, guid: 534968b037925994cb5dab4d9142295a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 136910158356338928, guid: 534968b037925994cb5dab4d9142295a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -623,6 +628,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &496327223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 496327225}
+  - component: {fileID: 496327224}
+  m_Layer: 0
+  m_Name: MechGunThatSpawnsEnemies _ FireEnemies
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &496327224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496327223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a0b5c26887adbc4b890d2ecba42773f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fireRate: 3
+  objToSpawn: {fileID: 1247514011}
+  maxRoundsInMagazine: 2147483647
+  roundsPerShot: 1
+  startingRoundsInMagazine: 2147483647
+  currentRemainingRoundsInMagazine: 2147483647
+  maxAmmo: 2147483647
+  startingAmmoInPocket: 2147483647
+  currentRemainingAmmoInPocket: 2147483647
+  spawnPoint: {fileID: 1074029127}
+  shootSound: {fileID: 0}
+  reloadSound: {fileID: 0}
+  bAllowManualReload: 0
+--- !u!4 &496327225
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496327223}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.115, y: -2.4400003, z: -1.6993133}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1247514012}
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &549622217
 GameObject:
   m_ObjectHideFlags: 0
@@ -1247,7 +1309,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 619661170}
-  - {fileID: 1247514012}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1267,6 +1328,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 136910158356338929, guid: 534968b037925994cb5dab4d9142295a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 136910158356338928, guid: 534968b037925994cb5dab4d9142295a,
         type: 3}
@@ -1513,7 +1579,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1186764913}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -56}
+  m_LocalPosition: {x: 0, y: 1, z: -37.59}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1543,12 +1609,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1247514011}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1049774577}
-  m_RootOrder: 1
+  m_Father: {fileID: 496327225}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1247514013
 MonoBehaviour:
@@ -1579,6 +1645,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 136910158356338929, guid: 534968b037925994cb5dab4d9142295a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 136910158356338928, guid: 534968b037925994cb5dab4d9142295a,
         type: 3}
@@ -2128,8 +2199,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a52310e428a458429f1a3e3cf30d7ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 5
-  currentHP: 5
+  maxHP: 100
+  currentHP: 100
   HPSlider: {fileID: 1007571670}
   StatHPText: {fileID: 0}
   objsToDisableOnDeath:
