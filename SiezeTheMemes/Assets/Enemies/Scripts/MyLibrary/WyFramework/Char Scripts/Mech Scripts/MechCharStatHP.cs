@@ -40,8 +40,8 @@ public class MechCharStatHP : MonoBehaviour
     void Start()
     {
         anim = GetComponentInChildren<Animator>();
-        currentHP = maxHP;
-        StatHPText.text = currentHP.ToString();
+        //currentHP = maxHP;
+        //StatHPText.text = currentHP.ToString();
         HPSlider.value = currentHP/maxHP;
 
     }
@@ -107,6 +107,7 @@ public class MechCharStatHP : MonoBehaviour
         }
 
     }
+
 	IEnumerator BlinkingSprite() {
 		bIsInvulnerable = true;
 		for(int i =0; i<5; i++){
