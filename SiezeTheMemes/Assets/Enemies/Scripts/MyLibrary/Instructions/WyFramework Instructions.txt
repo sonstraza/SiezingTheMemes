@@ -1,0 +1,68 @@
+﻿WY Framework
+
+
+## Instructions
+
+23/9/2019
+
+
+## Docs
+Migrating classes from Soccer to framework
+
+## Classes Implemented
+
+
+## Conventions
+### Class Naming Convention
+Class naming convention
+Cnv stands for convenience 
+- Classes that make Development and out of gameplay implementation feature implementation more convenient
+- Alt stands for alter, alter this class to suite your game
+
+Sgt stands for singleton
+
+Mech stands for game mechanics
+
+
+Specs stands for specific to current game only
+
+if you are making a game in a different project, and you have something new to put in this framework, 
+put a newPrefix in that classname and then copy it to this project
+
+### Header declaration naming Convention
+
+    // Logic
+    /// public lLogic
+    
+    // Non Viewable
+    public var
+
+    //EditorViewable
+    /// public var vObj
+
+    //EditorSetRef
+    /// public var rObj
+
+    // Components in this obj
+    ///public var myComp;
+        
+    // CustComponents in this obj
+    ///public var myCustComp;
+
+    // Components in Child
+    ///public var _child_Comp
+    
+    // CustComponents in Child
+    ///public var _child_CustComp
+
+    // Components in External
+    ///public var _ex_Comp
+    
+    // CustComponents in External
+    ///public var _ex_CustComp
+
+    // Components in External Child
+    ///public var _ex_child_Comp
+
+    // CustComponents in External Child
+    ///public var _ex_child_CustComp
