@@ -38,6 +38,9 @@ public class Tower : MonoBehaviour
             }
             */
             target = enemy;
+
+
+            
         }
         // 2
         if (target != null)
@@ -46,6 +49,17 @@ public class Tower : MonoBehaviour
             {
                 attack(target.GetComponent<SphereCollider>());
                 lastShotTime = Time.time;
+
+
+                /*
+                 foreach(GameObject enemy in enemiesInRange)
+                 {
+                    Transform healthBarTransform = target.transform.Find("HealthBar");
+                    HealthBar healthBar =
+                    healthBarTransform.gameObject.GetComponent<HealthBar>();
+                    healthBar.currentHealth -= Mathf.Max(damage, 0);
+                 }
+                */
             }
             // 3
 
@@ -84,6 +98,11 @@ public class Tower : MonoBehaviour
         audioSource.PlayOneShot(audioSource.clip);
         */
     
+    }
+
+    void attackAOE()
+    {
+
     }
 
     void OnEnemyDestroy(GameObject enemy)

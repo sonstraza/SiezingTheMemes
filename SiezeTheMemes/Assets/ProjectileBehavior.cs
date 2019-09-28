@@ -35,20 +35,17 @@ public class ProjectileBehavior : MonoBehaviour
         {
             if (target != null)
             {
-                /* // 3
-                Transform healthBarTransform = target.transform.Find("HealthBar");
-                HealthBar healthBar =
-                    healthBarTransform.gameObject.GetComponent<HealthBar>();
-                healthBar.currentHealth -= Mathf.Max(damage, 0);
+                 // 3
+                
 
-                */
+                
                 // 4
                 if (enemy.currentHealth <= 0)
                 {
                     Destroy(target);
                   
 
-                    gameManager.Materials += 50;
+                    gameManager.Materials++;
                 }
             }
             Destroy(gameObject);
