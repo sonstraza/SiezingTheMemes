@@ -323,10 +323,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsNew: 0
-  Text: 'NCage (2)_Type_2.
-
-    .Please customize and make your own animator animation to move the Enemy over
-    your background'
+  Text: "NCage (2)_Type_2.\n    Drag each new type of enemy into the array Object
+    To Pool\n\n    Object to Pool will randomly \"spawn\" any of the the \"type\"
+    of object\n.Please customize and make your own animator animation to move the
+    Enemy over your background"
   Image: {fileID: 0}
   ImgStyle:
     m_Name: box
@@ -406,7 +406,7 @@ MonoBehaviour:
   Color: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 9
   Bold: 0
-  Size: {x: 510, y: 32}
+  Size: {x: 510, y: 65}
   Style:
     m_Name: box
     m_Normal:
@@ -2173,11 +2173,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsNew: 0
-  Text: 'NCage_Type_1
-
-
-    Please customize and make your own animator animation to move the Enemy over your
-    background'
+  Text: "NCage_Type_1\n    Drag each new type of enemy into the array Object To Pool\n\n
+    \   Object to Pool will randomly \"spawn\" any of the the \"type\" of object\nPlease
+    customize and make your own animator animation to move the Enemy over your background"
   Image: {fileID: 0}
   ImgStyle:
     m_Name: box
@@ -2257,7 +2255,7 @@ MonoBehaviour:
   Color: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 9
   Bold: 0
-  Size: {x: 507, y: 43}
+  Size: {x: 507, y: 65}
   Style:
     m_Name: box
     m_Normal:
@@ -2640,10 +2638,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsNew: 0
-  Text: 'NCage_Type_0
-
-    Please customize and make your own animator animation to move the Enemy over your
-    background'
+  Text: "NCage_Type_0\n    Drag each new type of enemy into the array Object To Pool\n\n
+    \   Object to Pool will randomly \"spawn\" any of the the \"type\" of object\nPlease
+    customize and make your own animator animation to move the Enemy over your background"
   Image: {fileID: 0}
   ImgStyle:
     m_Name: box
@@ -2723,7 +2720,7 @@ MonoBehaviour:
   Color: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 9
   Bold: 0
-  Size: {x: 507, y: 32}
+  Size: {x: 507, y: 65}
   Style:
     m_Name: box
     m_Normal:
