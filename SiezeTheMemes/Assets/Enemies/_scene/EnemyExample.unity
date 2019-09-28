@@ -322,15 +322,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ab77b69211ab564d87800fb4c0bf329, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsNew: 1
-  Text: 'NCage_Type_0
+  IsNew: 0
+  Text: 'NCage (2)_Type_2.
 
-
-    Drag each new type of enemy into the array Object To Pool
-
-    Object to Pool will randomly "spawn" any of the the "type" of object
-
-    you passed there'
+    .Please customize and make your own animator animation to move the Enemy over
+    your background'
   Image: {fileID: 0}
   ImgStyle:
     m_Name: box
@@ -410,11 +406,11 @@ MonoBehaviour:
   Color: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 9
   Bold: 0
-  Size: {x: 348, y: 65}
+  Size: {x: 510, y: 32}
   Style:
     m_Name: box
     m_Normal:
-      m_Background: {fileID: 756681093}
+      m_Background: {fileID: 0}
       m_ScaledBackgrounds: []
       m_TextColor: {r: 0, g: 0, b: 0, a: 1}
     m_Hover:
@@ -687,7 +683,7 @@ MonoBehaviour:
   Style:
     m_Name: box
     m_Normal:
-      m_Background: {fileID: 1048049588}
+      m_Background: {fileID: 0}
       m_ScaledBackgrounds: []
       m_TextColor: {r: 0, g: 0, b: 0, a: 1}
     m_Hover:
@@ -1791,46 +1787,6 @@ Transform:
   m_Father: {fileID: 1916606913}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!28 &756681093
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 2
-  m_Width: 1
-  m_Height: 1
-  m_CompleteImageSize: 4
-  m_TextureFormat: 4
-  m_MipCount: 1
-  m_IsReadable: 1
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_LightmapFormat: 0
-  m_ColorSpace: 0
-  image data: 4
-  _typelessdata: ffffffff
-  m_StreamData:
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &804113830
 GameObject:
   m_ObjectHideFlags: 0
@@ -2056,46 +2012,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!28 &1048049588
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 2
-  m_Width: 1
-  m_Height: 1
-  m_CompleteImageSize: 4
-  m_TextureFormat: 4
-  m_MipCount: 1
-  m_IsReadable: 1
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_LightmapFormat: 0
-  m_ColorSpace: 0
-  image data: 4
-  _typelessdata: ffffffff
-  m_StreamData:
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &1049774576
 GameObject:
   m_ObjectHideFlags: 0
@@ -2256,15 +2172,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ab77b69211ab564d87800fb4c0bf329, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsNew: 1
-  Text: 'NCage_Type_0
+  IsNew: 0
+  Text: 'NCage_Type_1
 
 
-    Drag each new type of enemy into the array Object To Pool
-
-    Object to Pool will randomly "spawn" any of the the "type" of object
-
-    you passed there'
+    Please customize and make your own animator animation to move the Enemy over your
+    background'
   Image: {fileID: 0}
   ImgStyle:
     m_Name: box
@@ -2344,11 +2257,11 @@ MonoBehaviour:
   Color: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 9
   Bold: 0
-  Size: {x: 348, y: 65}
+  Size: {x: 507, y: 43}
   Style:
     m_Name: box
     m_Normal:
-      m_Background: {fileID: 756681093}
+      m_Background: {fileID: 0}
       m_ScaledBackgrounds: []
       m_TextColor: {r: 0, g: 0, b: 0, a: 1}
     m_Hover:
@@ -2726,15 +2639,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ab77b69211ab564d87800fb4c0bf329, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsNew: 1
+  IsNew: 0
   Text: 'NCage_Type_0
 
-
-    Drag each new type of enemy into the array Object To Pool
-
-    Object to Pool will randomly "spawn" any of the the "type" of object
-
-    you passed there'
+    Please customize and make your own animator animation to move the Enemy over your
+    background'
   Image: {fileID: 0}
   ImgStyle:
     m_Name: box
@@ -2814,11 +2723,11 @@ MonoBehaviour:
   Color: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 9
   Bold: 0
-  Size: {x: 348, y: 65}
+  Size: {x: 507, y: 32}
   Style:
     m_Name: box
     m_Normal:
-      m_Background: {fileID: 756681093}
+      m_Background: {fileID: 0}
       m_ScaledBackgrounds: []
       m_TextColor: {r: 0, g: 0, b: 0, a: 1}
     m_Hover:
