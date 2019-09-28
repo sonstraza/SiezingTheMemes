@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -42,7 +43,9 @@ public class MechCharStatHP : MonoBehaviour
         anim = GetComponentInChildren<Animator>();
         //currentHP = maxHP;
         //StatHPText.text = currentHP.ToString();
-        HPSlider.value = currentHP/maxHP;
+        
+        if(HPSlider) 
+            HPSlider.value = currentHP/maxHP;
 
     }
 
@@ -58,8 +61,10 @@ public class MechCharStatHP : MonoBehaviour
         if(currentHP>maxHP){
             currentHP = maxHP;
         }
-        HPSlider.value = currentHP/maxHP;
-        StatHPText.text = currentHP.ToString();
+        if(HPSlider)
+            HPSlider.value = currentHP/maxHP;
+        if(StatHPText)
+            StatHPText.text = currentHP.ToString();
     }
 
     public void ApplyDamage(float DamageValue){
@@ -76,9 +81,10 @@ public class MechCharStatHP : MonoBehaviour
 
             currentHP = 0;
         }
-        
-        HPSlider.value = currentHP/maxHP;
-        StatHPText.text = currentHP.ToString();
+        if(HPSlider)
+            HPSlider.value = currentHP/maxHP;
+        if(StatHPText)
+            StatHPText.text = currentHP.ToString();
     }
     
     public void OnDeath()
@@ -108,7 +114,14 @@ public class MechCharStatHP : MonoBehaviour
 
     }
 
-	IEnumerator BlinkingSprite() {
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if(other.collider.tag == "Obstacle"){
+            ApplyDamage(1);
+        }    
+    }
+
+    IEnumerator BlinkingSprite() {
 		bIsInvulnerable = true;
 		for(int i =0; i<5; i++){
 			yield return new WaitForSeconds (0.1f);

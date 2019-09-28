@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\u1274886\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\u1274886\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_SiezeTheMemes.-1871339897.00" t="ExcludeRecursive" />
+    <e p="D:\MyGitRepos\Projects\Mobile Games\Team\GameCraftJam September\SiezingTheMemes\SiezeTheMemes" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="CollisionTest.cs" t="Include" />
+        <e p="Enemies" t="Include">
+          <e p="EnemyNav.cs" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="MyLibrary" t="Include">
+              <e p="_placeHolder.cs" t="Include" />
+              <e p="Instructions" t="Include">
+                <e p="WyFramework Instructions.txt" t="Include" />
+              </e>
+              <e p="MDA" t="Include">
+                <e p="Info.cs" t="Include" />
+              </e>
+              <e p="PluginsAssetStore" t="Include">
+                <e p="DebugDrawingExtension" t="Include">
+                  <e p="DebugExtension.cs" t="Include" />
+                  <e p="Example" t="Include">
+                    <e p="Example.cs" t="Include" />
+                  </e>
+                  <e p="readme.txt" t="Include" />
+                </e>
+                <e p="ObjectNotes" t="Include">
+                  <e p="Editor" t="Include">
+                    <e p="ObjectNoteEditor.cs" t="Include" />
+                    <e p="ObjectNoteInGameEditor.cs" t="Include" />
+                  </e>
+                  <e p="ObjectNote.cs" t="Include" />
+                  <e p="ObjectNoteInGame.cs" t="Include" />
+                  <e p="readme.txt" t="Include" />
+                </e>
+              </e>
+              <e p="ReadMe.md.txt" t="Include" />
+              <e p="WyFramework" t="Include">
+                <e p="Char Scripts" t="Include">
+                  <e p="Mech Scripts" t="Include">
+                    <e p="Archive" t="Include">
+                      <e p="MechPropDamageStatHP.cs" t="Include" />
+                    </e>
+                    <e p="MechActorGroundDetector.cs" t="Include" />
+                    <e p="MechCharMovement2D.cs" t="Include" />
+                    <e p="MechCharMovementTopDown.cs" t="Include" />
+                    <e p="MechCharStatHP.cs" t="Include" />
+                    <e p="MechExtra Scripts" t="Include">
+                      <e p="CharSkills" t="Include">
+                        <e p="MechExtraCharSkillLaunchObjectBySpeed.cs" t="Include" />
+                        <e p="MechExtraCharSkillLaunchObjectBySpeed2D.cs" t="Include" />
+                        <e p="MechExtraCharSkillMeleeAtkColsPushback.cs" t="Include" />
+                        <e p="MechExtraCharSkillMeleeAtkSphrCastPushback.cs" t="Include" />
+                        <e p="MechExtraCharSkillPhysicsShortcuts.cs" t="Include" />
+                        <e p="MechExtraCharSkillRangeAtkRayCast2D.cs" t="Include" />
+                        <e p="MechExtraCharSkillRangeAtkRayCast3D.cs" t="Include" />
+                        <e p="MechExtraCharSkillRangeAtkSpwnObj.cs" t="Include" />
+                      </e>
+                      <e p="WorldStat" t="Include">
+                        <e p="MechExtraWorldStatTimer.cs" t="Include" />
+                      </e>
+                    </e>
+                    <e p="MechVehDroneMovementTopDown.cs" t="Include" />
+                    <e p="MechVehFlyDroneMovement25D.cs" t="Include" />
+                  </e>
+                  <e p="Vis Scripts" t="Include">
+                    <e p="VisCharAnim.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Convenience Scripts" t="Include">
+                  <e p="CnvCameraDrag.cs" t="Include" />
+                  <e p="CnvCameraFollowObj.cs" t="Include" />
+                  <e p="CnvCameraRTS.cs" t="Include" />
+                  <e p="CnvCameraTouch.cs" t="Include" />
+                  <e p="CnvDeactiveGmObjByTime.cs" t="Include" />
+                  <e p="CnvDetectCollision.cs" t="Include" />
+                  <e p="CnvDrawLineRen.cs" t="Include" />
+                  <e p="CnvInputMobileSwipe.cs" t="Include" />
+                  <e p="CnvLockPosToObj.cs" t="Include" />
+                  <e p="CnvLookAt2D.cs" t="Include" />
+                  <e p="CnvTags.cs" t="Include" />
+                  <e p="Singleton" t="Include">
+                    <e p="CnvAltGameplayMan.cs" t="Include" />
+                    <e p="CnvAltSaveSettings.cs" t="Include" />
+                    <e p="CnvLvlSgtMan.cs" t="Include" />
+                    <e p="CnvMechObjPoolSgtMan.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="DocumentationTemplate.cs" t="Include" />
+              </e>
+            </e>
+            <e p="TowerDefenseLogic" t="Include">
+              <e p="EnemyController.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="SiezeTheMemes.sln" t="IncludeFlat" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

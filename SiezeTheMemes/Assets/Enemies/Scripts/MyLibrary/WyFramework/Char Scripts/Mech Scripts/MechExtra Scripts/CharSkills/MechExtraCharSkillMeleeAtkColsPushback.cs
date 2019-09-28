@@ -24,7 +24,7 @@ public class MechExtraCharSkillMeleeAtkColsPushback : MonoBehaviour // melee att
     public float damageRate;
     public float pushBackForce;
 
-    float fireRate; // time when damage is possible
+    private float fireRate; // time when damage is possible
 
 
     // Start is called before the first frame update
@@ -45,7 +45,7 @@ public class MechExtraCharSkillMeleeAtkColsPushback : MonoBehaviour // melee att
                 targetMechCharStatHP.ApplyDamage(damage);
                 fireRate = Time.time + damageRate;
 
-                MechExtraCharSkillPhysicsShortcuts.LaunchObjBy2Transforms(targetObj.transform, transform, pushBackForce);
+                //MechExtraCharSkillPhysicsShortcuts.LaunchObjBy2Transforms(targetObj.transform, transform, pushBackForce);
             }
         }
     }
@@ -53,22 +53,24 @@ public class MechExtraCharSkillMeleeAtkColsPushback : MonoBehaviour // melee att
 
     private void OnCollisionEnter2D(Collision2D other)
     {
+        print("Collide");
         if (other.gameObject)
         {
             Attack(other.gameObject);
         }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject)
-        {
-            Attack(other.gameObject);
-        }
-    }
-
+    }    
     private void OnCollisionEnter(Collision other)
-    {
+    {        print("Collide");
+
+        if (other.gameObject)
+        {
+            Attack(other.gameObject);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {        print("Collide");
+
         if (other.gameObject)
         {
             Attack(other.gameObject);
@@ -76,10 +78,14 @@ public class MechExtraCharSkillMeleeAtkColsPushback : MonoBehaviour // melee att
     }
 
     private void OnTriggerEnter(Collider other)
-    {
+    {        print("Collide");
+
         if (other.gameObject)
         {
             Attack(other.gameObject);
         }
     }
+
+
+
 }

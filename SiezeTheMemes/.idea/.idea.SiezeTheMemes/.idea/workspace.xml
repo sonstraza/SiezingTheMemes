@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c3df525a-5c48-4954-89bb-830f49e24f2e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Enemies/_scene/EnemyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Enemies/_scene/EnemyScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enemies/_scene/EnemyScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Enemies/_scene/EnemyScene.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enemies/_scene/ProtoEnemy.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Enemies/_scene/ProtoEnemy.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enemies/_scene/ProtoEnemy.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Enemies/_scene/ProtoEnemy.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enemies/_scene/anim.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Enemies/_scene/anim.anim" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Enemies/Scripts/TowerDefenseLogic/EnemyController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1569631094116" expanded="true" signature="6:78" ph="..." />
+                <marker date="1569631094116" expanded="true" signature="124:304" ph="{...}" />
+                <marker date="1569631094116" expanded="true" signature="182:292" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Enemies/Scripts/MyLibrary/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkColsPushback.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="488">
+              <caret line="81" selection-start-line="81" selection-end-line="81" />
+              <folding>
+                <marker date="1569633314246" expanded="true" signature="6:92" ph="..." />
+                <marker date="1569633314246" expanded="true" signature="95:101" ph="/* ... */" />
+                <marker date="1569633314246" expanded="true" signature="102:437" ph="///     This class uses a collider that apply damage to any character that touches it, and push them back in reco ... " />
+                <marker date="1569633314246" expanded="true" signature="531:2021" ph="{...}" />
+                <marker date="1569633314246" expanded="true" signature="752:794" ph="{...}" />
+                <marker date="1569633314246" expanded="true" signature="834:1298" ph="{...}" />
+                <marker date="1569633314246" expanded="true" signature="971:1292" ph="{...}" />
+                <marker date="1569633314246" expanded="true" signature="1020:1282" ph="{...}" />
+                <marker date="1569633314246" expanded="true" signature="1355:1481" ph="{...}" />
+                <marker date="1569633314246" expanded="true" signature="1417:1475" ph="{...}" />
+                <marker date="1569633314246" expanded="true" signature="1536:1662" ph="{...}" />
+                <marker date="1569633314246" expanded="true" signature="1598:1656" ph="{...}" />
+                <marker date="1569633314246" expanded="true" signature="1715:1841" ph="{...}" />
+                <marker date="1569633314246" expanded="true" signature="1777:1835" ph="{...}" />
+                <marker date="1569633314246" expanded="true" signature="1890:2016" ph="{...}" />
+                <marker date="1569633314246" expanded="true" signature="1952:2010" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Enemies/Scripts/MyLibrary/WyFramework/Char Scripts/Mech Scripts/MechCharStatHP.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="120" column="13" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
+              <folding>
+                <marker date="1569633282509" expanded="true" signature="6:114" ph="..." />
+                <marker date="1569633282509" expanded="true" signature="115:138" ph="/* using TmPro; ... */" />
+                <marker date="1569633282509" expanded="true" signature="139:316" ph="///     This class controls the HP Stat of the Character ... " />
+                <marker date="1569633282509" expanded="true" signature="361:3094" ph="{...}" />
+                <marker date="1569633282509" expanded="true" signature="818:1038" ph="{...}" />
+                <marker date="1569633282509" expanded="true" signature="884:954" ph="/* currentHP = maxHP; ... */" />
+                <marker date="1569633282509" expanded="true" signature="1065:1133" ph="{...}" />
+                <marker date="1569633282509" expanded="true" signature="1176:1465" ph="{...}" />
+                <marker date="1569633282509" expanded="true" signature="1201:1247" ph="{...}" />
+                <marker date="1569633282509" expanded="true" signature="1275:1317" ph="{...}" />
+                <marker date="1569633282509" expanded="true" signature="1513:1993" ph="{...}" />
+                <marker date="1569633282509" expanded="true" signature="1555:1716" ph="{...}" />
+                <marker date="1569633282509" expanded="true" signature="1640:1706" ph="{...}" />
+                <marker date="1569633282509" expanded="true" signature="1742:1845" ph="{...}" />
+                <marker date="1569633282509" expanded="true" signature="2024:2503" ph="{...}" />
+                <marker date="1569633282509" expanded="true" signature="2039:2103" ph="/* death code for char ... */" />
+                <marker date="1569633282509" expanded="true" signature="2222:2276" ph="{...}" />
+                <marker date="1569633282509" expanded="true" signature="2334:2388" ph="{...}" />
+                <marker date="1569633282509" expanded="true" signature="2444:2497" ph="{...}" />
+                <marker date="1569633282509" expanded="true" signature="2556:2667" ph="{...}" />
+                <marker date="1569633282509" expanded="true" signature="2621:2660" ph="{...}" />
+                <marker date="1569633282509" expanded="true" signature="2723:2823" ph="{...}" />
+                <marker date="1569633282509" expanded="true" signature="2774:2813" ph="{...}" />
+                <marker date="1569633282509" expanded="true" signature="2858:3090" ph="{...}" />
+                <marker date="1569633282509" expanded="true" signature="2911:3060" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Enemies/Scripts/TowerDefenseLogic/EnemyController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Enemies/Scripts/MyLibrary/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkColsPushback.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Enemies/Scripts/MyLibrary/WyFramework/Char Scripts/Mech Scripts/MechCharStatHP.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Enemies/Scripts/MyLibrary/WyFramework/Char Scripts/Mech Scripts/MechCharStatHP.cs" />
+        <option value="$PROJECT_DIR$/Assets/Enemies/Scripts/MyLibrary/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkColsPushback.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="240" />
+    <option name="y" value="130" />
+    <option name="width" value="1440" />
+    <option name="height" value="780" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3df525a-5c48-4954-89bb-830f49e24f2e" name="Default Changelist" comment="" />
+      <created>1569631402377</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569631402377</updated>
+      <workItem from="1569631405331" duration="1496000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1496000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17155035" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Enemies/Scripts/TowerDefenseLogic/EnemyController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1569631094116" expanded="true" signature="6:78" ph="..." />
+            <marker date="1569631094116" expanded="true" signature="124:304" ph="{...}" />
+            <marker date="1569631094116" expanded="true" signature="182:292" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Enemies/Scripts/MyLibrary/WyFramework/Char Scripts/Mech Scripts/MechCharStatHP.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="120" column="13" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
+          <folding>
+            <marker date="1569633282509" expanded="true" signature="6:114" ph="..." />
+            <marker date="1569633282509" expanded="true" signature="115:138" ph="/* using TmPro; ... */" />
+            <marker date="1569633282509" expanded="true" signature="139:316" ph="///     This class controls the HP Stat of the Character ... " />
+            <marker date="1569633282509" expanded="true" signature="361:3094" ph="{...}" />
+            <marker date="1569633282509" expanded="true" signature="818:1038" ph="{...}" />
+            <marker date="1569633282509" expanded="true" signature="884:954" ph="/* currentHP = maxHP; ... */" />
+            <marker date="1569633282509" expanded="true" signature="1065:1133" ph="{...}" />
+            <marker date="1569633282509" expanded="true" signature="1176:1465" ph="{...}" />
+            <marker date="1569633282509" expanded="true" signature="1201:1247" ph="{...}" />
+            <marker date="1569633282509" expanded="true" signature="1275:1317" ph="{...}" />
+            <marker date="1569633282509" expanded="true" signature="1513:1993" ph="{...}" />
+            <marker date="1569633282509" expanded="true" signature="1555:1716" ph="{...}" />
+            <marker date="1569633282509" expanded="true" signature="1640:1706" ph="{...}" />
+            <marker date="1569633282509" expanded="true" signature="1742:1845" ph="{...}" />
+            <marker date="1569633282509" expanded="true" signature="2024:2503" ph="{...}" />
+            <marker date="1569633282509" expanded="true" signature="2039:2103" ph="/* death code for char ... */" />
+            <marker date="1569633282509" expanded="true" signature="2222:2276" ph="{...}" />
+            <marker date="1569633282509" expanded="true" signature="2334:2388" ph="{...}" />
+            <marker date="1569633282509" expanded="true" signature="2444:2497" ph="{...}" />
+            <marker date="1569633282509" expanded="true" signature="2556:2667" ph="{...}" />
+            <marker date="1569633282509" expanded="true" signature="2621:2660" ph="{...}" />
+            <marker date="1569633282509" expanded="true" signature="2723:2823" ph="{...}" />
+            <marker date="1569633282509" expanded="true" signature="2774:2813" ph="{...}" />
+            <marker date="1569633282509" expanded="true" signature="2858:3090" ph="{...}" />
+            <marker date="1569633282509" expanded="true" signature="2911:3060" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Enemies/Scripts/MyLibrary/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkColsPushback.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+          <folding>
+            <marker date="1569633314246" expanded="true" signature="6:92" ph="..." />
+            <marker date="1569633314246" expanded="true" signature="95:101" ph="/* ... */" />
+            <marker date="1569633314246" expanded="true" signature="102:437" ph="///     This class uses a collider that apply damage to any character that touches it, and push them back in reco ... " />
+            <marker date="1569633314246" expanded="true" signature="531:2021" ph="{...}" />
+            <marker date="1569633314246" expanded="true" signature="752:794" ph="{...}" />
+            <marker date="1569633314246" expanded="true" signature="834:1298" ph="{...}" />
+            <marker date="1569633314246" expanded="true" signature="971:1292" ph="{...}" />
+            <marker date="1569633314246" expanded="true" signature="1020:1282" ph="{...}" />
+            <marker date="1569633314246" expanded="true" signature="1355:1481" ph="{...}" />
+            <marker date="1569633314246" expanded="true" signature="1417:1475" ph="{...}" />
+            <marker date="1569633314246" expanded="true" signature="1536:1662" ph="{...}" />
+            <marker date="1569633314246" expanded="true" signature="1598:1656" ph="{...}" />
+            <marker date="1569633314246" expanded="true" signature="1715:1841" ph="{...}" />
+            <marker date="1569633314246" expanded="true" signature="1777:1835" ph="{...}" />
+            <marker date="1569633314246" expanded="true" signature="1890:2016" ph="{...}" />
+            <marker date="1569633314246" expanded="true" signature="1952:2010" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
